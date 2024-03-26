@@ -1,0 +1,56 @@
+.container{
+    background-color: white;
+    width: 1000px;
+    height: 1000px;
+}
+
+img{
+ width: 175px;
+ height: 170px;
+ border-radius: 5%;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    padding: 0.5% 0.5%; 
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: 17%;
+    width: 11%;
+    height: 33vh; 
+    background: white;
+    border-radius: 5%;
+}
+.centered {
+    position: absolute;
+    top: 110%;
+    left: 110%;
+    transform: translate(-100%, -100%);
+}
+
+#p2{
+    font-size: small;
+    
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust the width for smaller screens */
+        margin-top: 10%; /* Adjust the top margin for smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 95%; /* Further adjust the width for even smaller screens */
+        margin-top: 5%; /* Further adjust the top margin for even smaller screens */
+    }
+
+    img {
+        max-width: 150px; /* Further adjust the maximum width of the image */
+    }
+
+    #p2 {
+        font-size: x-small; /* Further adjust font size for even smaller screens */
+    }
+}
